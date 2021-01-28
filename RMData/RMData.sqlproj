@@ -64,9 +64,13 @@
     <Folder Include="PublishLocations" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="PublishLocations\RMData.publish.xml" />
+    <Build Include="dbo\Tables\User.sql" />
+    <Build Include="dbo\Tables\Sale.sql" />
+    <Build Include="dbo\Tables\SaleDetail.sql" />
+    <Build Include="dbo\Tables\Product.sql" />
+    <Build Include="dbo\Tables\Inventory.sql" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\Tables\User.sql" />
+    <None Include="PublishLocations\RMData.publish.xml" />
   </ItemGroup>
 </Project>
