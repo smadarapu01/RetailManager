@@ -35,5 +35,6 @@
         <PasswordBox x:Name="Password" Grid.Row="2" Grid.Column="2" MaxWidth="150" Margin="0 0 0 10"></PasswordBox>
 
         <Button Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="3" HorizontalAlignment="Left" x:Name="LogIn">Log in</Button>
+        <!--<TextBlock Grid.Row="4" x:Name="ErrorMessage" Text="This is an error message." Foreground="Red" TextWrapping="Wrap" Grid.Column="1" HorizontalAlignment="Right" Margin="0 0 0 10"></TextBlock>-->
     </Grid>
 </UserControl>
